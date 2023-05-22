@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Form Styles */
+form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Media Query for Form Width */
+@media (max-width: 600px) {
+  form {
+    width: 600px;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+}
+
+/* Card Styles */
+.card {
+  width: 344px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+  height: 194px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-content {
+  margin-top: 16px;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.card-secondary-text,
+.card-body-text {
+  font-size: 11px;
+  color: #232F34;
+  margin-bottom: 8px;
+}
+
+.card-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
